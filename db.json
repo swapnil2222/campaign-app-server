@@ -1,0 +1,179 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@gmail.com",
+      "password": "Sebastian#01"
+    },
+    {
+      "id": 2,
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "steve@gmail.com",
+      "password": "steve@gmail.com"
+    },
+    {
+      "first_name": "Swapnil",
+      "last_name": "Renge",
+      "email": "swapnil.renge@globant.com",
+      "password": "Test#040",
+      "id": 3
+    },
+    {
+      "first_name": "Test",
+      "last_name": "Tesst1",
+      "email": "test@gmail.com",
+      "password": "Test#0400",
+      "id": 4
+    }
+  ],
+  "contacts": [
+    {
+      "id": 2,
+      "userId": 2,
+      "first_name": "Ram",
+      "last_name": "Kumar",
+      "gender": "male",
+      "email": "ram@gmail.com",
+      "address": "23/2 Broadway, Paris, France",
+      "phone": "4567865436",
+      "city": "Paris"
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "first_name": "Cesar",
+      "last_name": "Godria",
+      "gender": "male",
+      "email": "cg@gmail.com",
+      "address": "Malasiya",
+      "phone": "4599909878",
+      "city": "Miri"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "first_name": "Angelina",
+      "last_name": "Smith",
+      "gender": "female",
+      "email": "angelina@gmail.com",
+      "address": "indonesia",
+      "phone": "7645433456",
+      "city": "Jakarta"
+    },
+    {
+      "userId": 3,
+      "firstName": "",
+      "lastName": "",
+      "email": "vinayr@gmail.com",
+      "gender": "male",
+      "address": "Pune",
+      "phone": "9878876756",
+      "city": "Pune",
+      "first_name": "Vinay",
+      "last_name": "R",
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "firstName": "",
+      "lastName": "",
+      "email": "lalit.patil@gmail.com",
+      "gender": "male",
+      "address": "Pune",
+      "phone": "9878676565",
+      "city": "Pune",
+      "first_name": "Lalit",
+      "last_name": "Patil",
+      "id": 8
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 1,
+      "name": "Energy bill May 2022",
+      "subject": "Pay Energy Bill for May 2022",
+      "status": "pending",
+      "template": {
+        "name": "EnergyBillTemplate"
+      },
+      "template_vars": {
+        "corporation_name": "Green Energy Corporation",
+        "month": "May",
+        "Year": "2022",
+        "bill_amount": "2000",
+        "year": "2022"
+      },
+      "contacts": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "userId": 3
+    },
+    {
+      "contacts": [
+        3,
+        1
+      ],
+      "template_vars": {
+        "corporation_name": "MSEB",
+        "month": "October",
+        "year": "2022",
+        "bill_amount": "1200"
+      },
+      "name": "MSEDCL",
+      "subject": "Energy Bill October",
+      "template": {
+        "name": "EnergyBillTemplate"
+      },
+      "userId": 3,
+      "status": "pending",
+      "id": 3
+    },
+    {
+      "contacts": [
+        6,
+        7
+      ],
+      "template_vars": {
+        "venue": "Pune",
+        "event_date": "22-10-2022",
+        "event_time": "7:00PM",
+        "band_name": "Green Band"
+      },
+      "name": "Musical Night",
+      "subject": "Musical Night",
+      "template": {
+        "name": "MusicalEventTemplate"
+      },
+      "userId": 3,
+      "status": "sent",
+      "id": 4
+    },
+    {
+      "contacts": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "template_vars": {
+        "hours": "20",
+        "issuer": "Globant",
+        "course_name": "Appreciation"
+      },
+      "name": "Bravo Certificate 2",
+      "subject": "Outstanding performance v2",
+      "template": {
+        "name": "CertificateTemplate"
+      },
+      "userId": 3,
+      "status": "sent",
+      "id": 5
+    }
+  ]
+}
